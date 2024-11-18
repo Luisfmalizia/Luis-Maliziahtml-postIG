@@ -3,9 +3,9 @@ let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 
 for (let i = 0; i < pronoun.length; i++) {
-  for (let j = 0; j < adj.length; j++) {
-    for (let k = 0; k < noun.length; k++) {
-      console.log(pronoun[i] + adj[j] + noun[k] + ".com");
+  for (let l = 0; l < adj.length; l++) {
+    for (let n = 0; n < noun.length; n++) {
+      console.log(pronoun[i] + adj[l] + noun[n] + ".com");
     }
   }
 }
